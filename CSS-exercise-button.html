@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .btn {
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 8px;
+            border: none;
+        }
+
+        .btn.sec {
+            background-color: rgb(219, 213, 213, 0.98);
+            color: black;
+        }
+
+        .btn:hover {
+            background-color: rgba(0, 0, 0, 0.72)
+        }
+
+        .btn.sec:hover {
+            background-color: rgb(238, 235, 235);
+        }
+
+        .btn.error {
+            background-color: red;
+        }
+        
+        .btn.error:hover{
+            background-color: rgb(237, 100, 100);
+        }
+
+        .btn.outline {
+            background-color: white;
+            color: black;
+            border: 0.3px solid grey;
+        }
+
+        .btn.outline:hover {
+            background-color: rgb(208, 198, 198);
+        }
+
+        .btn.ghost {
+            background-color: transparent;
+            color:black;
+        }
+
+        .btn.ghost:hover {
+            background-color: rgb(226, 223, 223);
+        }
+
+        .btn.link {
+            background-color: transparent;
+            color: black;
+        }
+
+        .btn.link:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <button class="btn">Primary</button>
+    <br />
+    <br />
+    <button class="btn sec">Secondary</button>
+    <br/>
+    <br/>
+    <button class="btn error">Error</button>
+    <br/>
+    <br/>
+    <button class="btn outline">Outline</button>
+    <br/>
+    <br/>
+    <button class="btn ghost">Ghost</button>
+    <br/>
+    <br/>
+    <button class="btn link">Link</button>
+</body>
+
+</html>
