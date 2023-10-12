@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alerts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .alert {
+            border: 0.5px solid grey;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .alert .title {
+            font-weight: bold;
+        }
+
+        .alert .icon {
+            vertical-align: top;
+            padding-right: 10px;
+        }
+  
+        .alert.error {
+            color: red;
+            border-color: red;
+        }
+
+        .alert.success {
+            color: green;
+            border-color: green;
+        }
+
+        .alert.warning {
+            color: orange;
+            border-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="alert">
+        <tbody>
+            <tr>
+                <td rowspan="2" class="icon"><i class="fa-solid fa-terminal"></i></td>
+                <td>
+                    <div class="title">Heads up!</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">You can add components to your app using the cli.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <table class="alert error">
+        <tbody>
+            <tr>
+                <td rowspan="2" class="icon"><i class="fa-solid fa-circle-exclamation"></i></td>
+                <td>
+                    <div class="title">Error!</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">You can add components to your app using the cli.</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<br/>
+<br/>
+    <table class="alert success">
+        <tbody>
+            <tr>
+                <td rowspan="2" class="icon"><i class="fa-solid fa-circle-check"></i></td>
+                <td>
+                    <div class="title">Success!</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">You can add components to your app using the cli.</div>
+                </td>
+            </tr>
+        </tbody>   
+    </table>
+<br/>
+<br/>
+<table class="alert warning">
+    <tbody>
+        <tr>
+            <td rowspan="2" class="icon"><i class="fa-solid fa-triangle-exclamation"></i></td>
+            <td>
+                <div class="title">Warning!</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="info">You can add components to your app using the cli.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+
+</html>
