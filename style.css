@@ -1,0 +1,73 @@
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn:hover {
+    background-color: rgb(82, 80, 80);
+}
+.btn.secondary {
+    background-color: lightgray;
+    color:black;
+}
+.btn.secondary:hover {
+    background-color: grey;
+}
+.btn.error {
+    background-color: red;
+}
+.btn.error:hover {
+    background-color: lightcoral;
+}
+.btn.link {
+    background-color: transparent;
+    color:black;
+}
+.btn.link:hover {
+    text-decoration: underline;
+}
+
+.alert-table {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.alert-table .logo {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.alert-table.error {
+    color: red;
+    border-color: red;
+}
+
+.alert {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+.alert .icon {
+    padding-right: 10px;
+}
+.alert.error{
+    border-color: red;
+    color:red;
+}
+
+.text:focus {
+    outline-offset: 2px;
+    outline: 2px solid lightgrey;
+}
+.text {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.text.error:focus {
+    border: 1px solid red;
+    outline-color: red;
+}

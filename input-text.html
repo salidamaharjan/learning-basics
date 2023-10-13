@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Text</title>
+        <style>
+         input {
+            border-radius: 5px;
+         }
+         input:focus {
+            outline: 2px groove red;
+            outline-offset: 2px;
+            border-radius: 5px;
+         }
+         .error {
+            border-color: red;
+         }
+         .error:focus {
+            border-color: red;
+         }
+        </style>
+
+    </head>
+        <body>
+            <input type="text" placeholder="Email">
+            <br/>
+            <br/>
+            <input type="text" placeholder="Email" class="error">
+        </body>
+</html>
