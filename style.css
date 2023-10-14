@@ -66,8 +66,31 @@
     border: 1px solid lightgray;
     border-radius: 5px;
 }
+.text.error {
+    border-color: red;
+}
 
 .text.error:focus {
     border: 1px solid red;
     outline-color: red;
+}
+.checkbox input {
+    display: none;
+}
+
+.checkbox:has(input:checked) .fa-xmark {
+    display: none;
+}
+
+.checkbox:not(:has(input:checked)) .fa-check {
+    display: none;
+}
+.switch-with-icon input {
+    display: none; 
+}
+.switch-with-icon:has(input:checked) .fa-toggle-on {
+    display: none;
+}
+.switch-with-icon:not(:has(input:checked)) .fa-toggle-off{
+    display: none;
 }

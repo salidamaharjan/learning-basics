@@ -16,6 +16,13 @@
         <li><a href="#alert-table">Alert Table Layout</a></li>
         <li><a href="#alert-flex-layout">Alert Flex Layout</a></li>
         <li><a href="#input-text">Input Text</a></li>
+        <li> <a href="#input-with-label"> Input With label</a></li>
+        <li><a href="#input-with-button">Input with button</a></li>
+        <li><a href="#basic-form">Basic Form</a></li>
+        <li><a href="#simple-checkbox-with-label">Simple checkbox with label</a></li>
+        <li><a href="#custom-checkbox">Custom Checkbox</a></li>
+        <li><a href="#switch-with-icon">Switch with icon</a></li>
+        <li><a href="#checkbox-form">Checkbox form</a></li>
     </ul>
 
     <h2><a name="button">Button</a></h2>
@@ -62,10 +69,10 @@
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod iusto rerum, optio repellendus
                 fuga quibusdam provident consectetur architecto laudantium accusantium rem incidunt? Aliquid quibusdam
                 totam eos veritatis ipsum animi.</div>
-        </div> 
+        </div>
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <div class="alert error">
         <div class="icon"><i class="fa-solid fa-bell"></i></div>
         <div>
@@ -75,13 +82,50 @@
                 totam eos veritatis ipsum animi.</div>
         </div>
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <h2><a name="input-text">Input Text</a></h2>
     <input type="text" placeholder="Email" class="text">
-    <br/>
-    <br/>
+    <br />
+    <br />
     <input type="text" placeholder="Email" class="text error">
-</body>
+    <h2><a name="input-with-label">Input With Label</a></h2>
+    <div style="display: flex;flex-direction: column;">
+        <label for="email-with-label">Email</label>
+        <input id="email-with-label" type="text" placeholder="Email" class="text">
+    </div>
+    <h2><a name="input-with-button">Input with button</a></h2>
+    <div style="display: flex;">
+        <input type="text" placeholder="Email" class="text">
+        <button class="btn">Submit</button>
+    </div>
+    <h2><a name="basic-form">Basic form</a></h2>
+    <div style="display: flex; flex-direction: column; gap: 5px">
+        <label for="basic-form">Username</label>
+        <input id="basic-form" class="text" type="text" placeholder="Username">
+        <div style="color: grey">This is your public display name</div>
+        <button class="btn">Submit</button>
+    </div>
+    <h2><a name="simple-checkbox-with-label">Simple checkbox with label</a></h2>
+    <label>
+        <input type="checkbox"> Do you want to code?
+    </label>
+    <h2><a name="custom-checkbox">Custom checkbox</a></h2>
 
+    <div>
+        <label class="checkbox">
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <input type="checkbox">Want Pizza?
+        </label>
+    </div>
+
+    <h2><a name="switch-with-icon">Switch with icon</a></h2>
+    <label class="switch-with-icon">
+        <input type="checkbox">
+        <i class="fa-solid fa-toggle-on"></i>
+        <i class="fa-solid fa-toggle-off"></i>
+    </label>
+
+</body>
 </html>
