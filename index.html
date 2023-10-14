@@ -23,6 +23,7 @@
         <li><a href="#custom-checkbox">Custom Checkbox</a></li>
         <li><a href="#switch-with-icon">Switch with icon</a></li>
         <li><a href="#checkbox-form">Checkbox form</a></li>
+        <li><a href="#radio">Radio</a></li>
     </ul>
 
     <h2><a name="button">Button</a></h2>
@@ -133,17 +134,18 @@
             gap: 2px;
             align-items: flex-start;
         }
+
         .checkbox-form-container h5 {
             font-size: 18px;
             margin: 0px;
             margin-bottom: 5px;
         }
+
         .checkbox-form-container p {
             margin: 0px;
             font-size: 14px;
             color: grey;
         }
-    
     </style>
     <h2><a name="checkbox-form">Checkbox form</a></h2>
     <div class="checkbox-form-container">
@@ -166,5 +168,43 @@
         </label>
         <button class="btn">Save</button>
     </div>
+    <style>
+        .radio-container {
+            border: 1px solid rgb(218, 214, 214);
+            border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .radio:has(input:checked) .fa-circle-xmark {
+            display: none;
+        }
+
+        .radio:not(:has(input:checked)) .fa-circle-check {
+            display: none;
+        }
+
+        .radio input {
+            display: none;
+        }
+    </style>
+    <h2><a name="radio">Radio</a></h2>
+    <div style="display: flex;">
+        <div class="radio-container">
+            <div>Fast Food?</div>
+            <label class="radio">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <input type="radio" name="fastfood"> Yes!!
+            </label>
+            <label class="radio">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <input type="radio" name="fastfood"> Nooooo??
+            </label>
+        </div>
+    </div>
+
 </body>
+
 </html>
