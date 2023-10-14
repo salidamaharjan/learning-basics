@@ -126,6 +126,45 @@
         <i class="fa-solid fa-toggle-on"></i>
         <i class="fa-solid fa-toggle-off"></i>
     </label>
-
+    <style>
+        .checkbox-form-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: flex-start;
+        }
+        .checkbox-form-container h5 {
+            font-size: 18px;
+            margin: 0px;
+            margin-bottom: 5px;
+        }
+        .checkbox-form-container p {
+            margin: 0px;
+            font-size: 14px;
+            color: grey;
+        }
+    
+    </style>
+    <h2><a name="checkbox-form">Checkbox form</a></h2>
+    <div class="checkbox-form-container">
+        <h5>Sidebar</h5>
+        <p>Select the items you want to display in the sidebar</p>
+        <label class="checkbox">
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <input type="checkbox"> Option 1
+        </label>
+        <label class="checkbox">
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <input type="checkbox"> Option 2
+        </label>
+        <label class="checkbox">
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <input type="checkbox"> Option 3
+        </label>
+        <button class="btn">Save</button>
+    </div>
 </body>
 </html>
