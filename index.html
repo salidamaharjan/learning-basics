@@ -16,7 +16,7 @@
         <li><a href="#alert-table">Alert Table Layout</a></li>
         <li><a href="#alert-flex-layout">Alert Flex Layout</a></li>
         <li><a href="#input-text">Input Text</a></li>
-        <li> <a href="#input-with-label"> Input With label</a></li>
+        <li><a href="#input-with-label"> Input With label</a></li>
         <li><a href="#input-with-button">Input with button</a></li>
         <li><a href="#basic-form">Basic Form</a></li>
         <li><a href="#simple-checkbox-with-label">Simple checkbox with label</a></li>
@@ -24,6 +24,7 @@
         <li><a href="#switch-with-icon">Switch with icon</a></li>
         <li><a href="#checkbox-form">Checkbox form</a></li>
         <li><a href="#radio">Radio</a></li>
+        <li><a href="#card-layout">Card Layout</a></li>
     </ul>
 
     <h2><a name="button">Button</a></h2>
@@ -175,18 +176,6 @@
             display: flex;
             flex-direction: column;
         }
-
-        .radio:has(input:checked) .fa-circle-xmark {
-            display: none;
-        }
-
-        .radio:not(:has(input:checked)) .fa-circle-check {
-            display: none;
-        }
-
-        .radio input {
-            display: none;
-        }
     </style>
     <h2><a name="radio">Radio</a></h2>
     <div style="display: flex;">
@@ -205,6 +194,78 @@
         </div>
     </div>
 
+    <h2><a name="card-layout">Card Layout</a></h2>
+    <div style="display: flex;">
+        <div class="card"></div>
+    </div>
+    <br />
+    <div style="display: flex;">
+        <div class="card">Some Context</div>
+    </div>
+    <br />
+
+    <style>
+        .card p {
+            color: grey;
+            margin: 0px;
+        }
+
+        .username-form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    </style>
+    <div style="display: flex;">
+        <div class="card username-form">
+            <label for="text">Username </label>
+            <div>
+                <input id="text" type="text" placeholder="Username" class="text">
+            </div>
+
+            <p>This is your public display name</p>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+    <br />
+    <style>
+        .create-account {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .card p {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+    </style>
+    <div style="display: flex;">
+        <form class="card create-account" style="display: flex; flex-direction: column;">
+            <h2 style="margin: 0px;">Create Account</h2>      
+            <p>Enter your email below to create your account</p>
+            <div style="display:flex;"">
+                <button class="btn secondary">
+                <i class="fa-brands fa-google"></i>
+                Google
+                </button>
+                <button class="btn secondary">
+                    <i class="fa-brands fa-github"></i>
+                    Github
+                </button>
+            </div>
+            <div style="display:flex; flex-direction: column;">
+                <label for="text">Email</label>
+                <input id="text" type="text" placeholder="Email" class="text">
+            </div>
+            <div style="display:flex; flex-direction: column;">
+                <label for="password">Password</label>
+                <input type="text" placeholder="Password" class="text">
+            </div>
+            <button class="btn">Create Account</button>
+        </form>
+
+    </div>
 </body>
 
 </html>

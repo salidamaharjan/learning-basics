@@ -3,7 +3,7 @@
     border: none;
     color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px 15px;
 }
 .btn:hover {
     background-color: rgb(82, 80, 80);
@@ -94,3 +94,20 @@
 .switch-with-icon:not(:has(input:checked)) .fa-toggle-off{
     display: none;
 }
+.radio:has(input:checked) .fa-circle-xmark {
+    display: none;
+}
+
+.radio:not(:has(input:checked)) .fa-circle-check {
+    display: none;
+}
+
+.radio input {
+    display: none;
+}
+.card {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
