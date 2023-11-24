@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div class="timer"></div>
+      <a href="highscore.html">See Highscore</a>
+    </header>
+    <button class="start-quiz">Start Quiz</button>
+    <form class="save-final-score-form">
+      <label>Your Initial <input class="user-initial" type="text" /></label>
+      <button class="save-final-score">Submit</button>
+    </form>
+    <section class="question-wrapper">
+      <!--creating an elment with a class to display the given question-->
+      <h1 class="questionTitle"></h1>
+      <!--creating ol element which has 4 li element as child to display the ordered list of given answer options-->
+      <ol class="listsOfOption">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </section>
+    <section class="section-gameover">
+      <h1>Game Over</h1>
+      <button class="restart-button">Restart</button>
+    </section>
+    <!--creating div element to display correct or incorrect result-->
+    <div class="displayRightOrWrong"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
