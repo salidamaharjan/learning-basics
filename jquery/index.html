@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .project {
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <button id="click-me">Click me</button>
+      <!-- 
+      <div class="tagline-container">
+        This is the tagline
+      </div> 
+      -->
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project project1">
+        <h3>Project 1</h3>
+        <p>Description of project 1.</p>
+      </div>
+      <div class="project project2">
+        <h3>Project 2</h3>
+        <p>Description of project 2.</p>
+      </div>
+      <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="contact">
+      <h2 data-value="this is data attribute">Contact Me</h2>
+      <p>Include your contact information here.</p>
+    </section>
+
+    <section id="hobby">
+      <h2>My Hobbies</h2>
+      <ul id="hobby-list">
+        <li>Reading</li>
+        <li>Writing</li>
+        <li>Playing</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>This is footer</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+      integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
