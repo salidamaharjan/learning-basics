@@ -1,0 +1,1563 @@
+{
+    "text": "bacon",
+    "parsed": [
+        {
+            "food": {
+                "foodId": "food_av0awb0bgs18qub01sd9kbx44b61",
+                "label": "Bacon",
+                "knownAs": "bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 13.7,
+                    "FAT": 37.1,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg"
+            }
+        }
+    ],
+    "hints": [
+        {
+            "food": {
+                "foodId": "food_av0awb0bgs18qub01sd9kbx44b61",
+                "label": "Bacon",
+                "knownAs": "bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 13.7,
+                    "FAT": 37.1,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 50.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+                    "label": "Whole",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slab",
+                    "label": "Slab",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_square",
+                    "label": "Square",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_strip",
+                    "label": "Strip",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 29.0,
+                    "qualified": [
+                        {
+                            "qualifiers": [
+                                {
+                                    "uri": "http://www.edamam.com/ontologies/edamam.owl#LanguaL_F0003",
+                                    "label": "NOT HEAT-TREATED"
+                                }
+                            ],
+                            "weight": 28.0
+                        }
+                    ]
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 442.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 113.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_av0awb0bgs18qub01sd9kbx44b61",
+                "label": "Smoked Bacon",
+                "knownAs": "bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 13.7,
+                    "FAT": 37.1,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 50.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+                    "label": "Whole",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slab",
+                    "label": "Slab",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_square",
+                    "label": "Square",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_strip",
+                    "label": "Strip",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 29.0,
+                    "qualified": [
+                        {
+                            "qualifiers": [
+                                {
+                                    "uri": "http://www.edamam.com/ontologies/edamam.owl#LanguaL_F0003",
+                                    "label": "NOT HEAT-TREATED"
+                                }
+                            ],
+                            "weight": 28.0
+                        }
+                    ]
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 442.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 113.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_av0awb0bgs18qub01sd9kbx44b61",
+                "label": "Applewood Smoked Bacon",
+                "knownAs": "bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 13.7,
+                    "FAT": 37.1,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 50.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+                    "label": "Whole",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slab",
+                    "label": "Slab",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_square",
+                    "label": "Square",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_strip",
+                    "label": "Strip",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 29.0,
+                    "qualified": [
+                        {
+                            "qualifiers": [
+                                {
+                                    "uri": "http://www.edamam.com/ontologies/edamam.owl#LanguaL_F0003",
+                                    "label": "NOT HEAT-TREATED"
+                                }
+                            ],
+                            "weight": 28.0
+                        }
+                    ]
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 442.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 113.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_ae0k103anpej5sa5pcxhsbzr19d4",
+                "label": "Cooked Bacon",
+                "knownAs": "cooked bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 548.0,
+                    "PROCNT": 35.7,
+                    "FAT": 43.3,
+                    "CHOCDF": 1.35,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/cc4/cc48c3a5a3d02a24ad9431509b6c2480.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 150.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pouch",
+                    "label": "Pouch",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 8.1,
+                    "qualified": [
+                        {
+                            "qualifiers": [
+                                {
+                                    "uri": "http://www.edamam.com/ontologies/edamam.owl#LanguaL_F0014",
+                                    "label": "FULLY HEAT-TREATED"
+                                }
+                            ],
+                            "weight": 8.1
+                        }
+                    ]
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_teaspoon",
+                    "label": "Teaspoon",
+                    "weight": 2.35416666678607
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                    "label": "Tablespoon",
+                    "weight": 7.0624999998806
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bottle",
+                    "label": "Bottle",
+                    "weight": 358.217302997649
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_b3rknhmb7zkrdoai6mayha09ibb8",
+                "label": "Bacon Bit",
+                "knownAs": "bacon bit",
+                "nutrients": {
+                    "ENERC_KCAL": 548.0,
+                    "PROCNT": 35.7,
+                    "FAT": 43.3,
+                    "CHOCDF": 1.35,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/cc4/cc48c3a5a3d02a24ad9431509b6c2480.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 150.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pouch",
+                    "label": "Pouch",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 8.1,
+                    "qualified": [
+                        {
+                            "qualifiers": [
+                                {
+                                    "uri": "http://www.edamam.com/ontologies/edamam.owl#LanguaL_F0014",
+                                    "label": "FULLY HEAT-TREATED"
+                                }
+                            ],
+                            "weight": 8.1
+                        }
+                    ]
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_teaspoon",
+                    "label": "Teaspoon",
+                    "weight": 2.35416666678607
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                    "label": "Tablespoon",
+                    "weight": 7.0624999998806
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 113.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bottle",
+                    "label": "Bottle",
+                    "weight": 358.217302997649
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_bd61zi0babsq6yacfm6ztb0y8012",
+                "label": "Canadian Bacon",
+                "knownAs": "canadian bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 110.0,
+                    "PROCNT": 20.3,
+                    "FAT": 2.62,
+                    "CHOCDF": 1.34,
+                    "FIBTG": 0.0
+                },
+                "category": "Generic foods",
+                "categoryLabel": "food",
+                "image": "https://www.edamam.com/food-img/adc/adc73ce633a9fa7c6c83f8dacac23fcc.jpg"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 90.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+                    "label": "Whole",
+                    "weight": 28.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slab",
+                    "label": "Slab",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_square",
+                    "label": "Square",
+                    "weight": 29.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 28.5
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 170.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 226.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_a947k6wbeyt208az5qttqb06twb3",
+                "label": "Bacon",
+                "knownAs": "Bacon",
+                "nutrients": {
+                    "ENERC_KCAL": 230.7266058395309,
+                    "PROCNT": 8.983410041876805,
+                    "FAT": 16.38944842940151,
+                    "CHOCDF": 11.904862732402997,
+                    "FIBTG": 1.1923451278192159
+                },
+                "category": "Generic meals",
+                "categoryLabel": "meal",
+                "foodContentsLabel": "bacon; butter; mushrooms; flour; chicken stock; crème fraîche; parsley; Salt; black pepper; cooked chicken; puff pastry"
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+                    "label": "Whole",
+                    "weight": 151.16957838678613
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 151.16957838678613
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+                    "label": "Milliliter",
+                    "weight": 1.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_b3tpdkxb639hlta8ey0ixb2lnda6",
+                "label": "Bacon Mayonnaise, Bacon",
+                "knownAs": "BACON MAYONNAISE, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 769.0,
+                    "PROCNT": 0.0,
+                    "FAT": 84.62000274658203,
+                    "CHOCDF": 0.0
+                },
+                "brand": "EMPIRE MAYONNAISE CO",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "NON-GMO CANOLA OIL; CAGE FREE EGG YOLKS; VINEGAR; HERITAGE BACON SALT; GUAR GUM; XANTHAN GUM",
+                "image": "https://www.edamam.com/food-img/642/642a0a8a99a57450512dd37c90b349b0.jpg",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 13.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                        "label": "Tablespoon",
+                        "quantity": 1.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 13.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                    "label": "Tablespoon",
+                    "weight": 13.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_abp82dfbi9tduwa5h1e2qbz1b4ki",
+                "label": "Bacon Base, Bacon",
+                "knownAs": "BACON BASE, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 333.0,
+                    "PROCNT": 16.670000076293945,
+                    "FAT": 25.0,
+                    "CHOCDF": 16.670000076293945,
+                    "FIBTG": 0.0
+                },
+                "brand": "L. J. Minor Corp.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "INGREDIENTS: BACON (CURED WITH WATER; SALT; SUGAR; SODIUM PHOSPHATE; SODIUM ERYTHORBATE; SODIUM NITRITE); SALT; HYDROLYZED CORN AND SOY PROTEIN; RENDERED BACON FAT (TBHQ AND CITRIC ACID ADDED TO PROTECT FLAVOR); WATER; SMOKED HAM GROUND AND FORMED NATURAL HICKORY SMOKE FLAVOR ADDED (CURED WITH WATER; SALT; SODIUM LACTATE; NATURAL HICKORY SMOKE FLAVOR; CORN SYRUP; DEXTROSE; SODIUM PHOSPHATES; SUGAR; SODIUM DIACETATE; SODIUM ERYTHORBATE; SODIUM NITRATE); MODIFIED CORN STARCH; 2% OR LESS OF NATURAL FLAVORS; CORN OIL; DISODIUM INOSINATE; DEXTROSE; DISODIUM GUANYLATE.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_teaspoon",
+                        "label": "Teaspoon",
+                        "quantity": 0.75
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 6.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 6.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_teaspoon",
+                    "label": "Teaspoon",
+                    "weight": 8.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_b0n75gca09rp81bddz9juaz0k0sh",
+                "label": "Bacon Jerky, Bacon",
+                "knownAs": "BACON JERKY, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 39.290000915527344,
+                    "FAT": 28.56999969482422,
+                    "CHOCDF": 3.569999933242798,
+                    "FIBTG": 0.0
+                },
+                "brand": "Smithfield",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "CURED WITH WATER; SALT; SUGAR; SMOKE FLAVORING; SODIUM PHOSPHATE; SODIUM ERYTHORBATE; SODIUM NITRITE.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 28.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                        "label": "Ounce",
+                        "quantity": 1.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_bzo1smeail00rubyxkzntbuw78x9",
+                "label": "Bacon Jerky, Bacon",
+                "knownAs": "BACON JERKY, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 393.0,
+                    "PROCNT": 39.290000915527344,
+                    "FAT": 28.56999969482422,
+                    "CHOCDF": 3.569999933242798
+                },
+                "brand": "Hy-Vee, Inc.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "WATER; SALT; SUGAR; NATURAL SMOKE FLAVOR; SODIUM PHOSPHATE; SODIUM ERYTHORBATE; SODIUM NITRITE.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                        "label": "Ounce",
+                        "quantity": 1.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 28.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_a48yxnlbqy5o4zb74w62tb0vy7tl",
+                "label": "Bacon",
+                "knownAs": "BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 500.0,
+                    "PROCNT": 7.139999866485596,
+                    "FAT": 50.0,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "brand": "Festival Foods",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "BACON CURED WITH: WATER; SALT; SUGAR; SODIUM PHOSPHATE; SODIUM ERYTHORBATE; SODIUM NITRITE.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                        "label": "Slice",
+                        "quantity": 2.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 14.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 14.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+                    "label": "Slice",
+                    "weight": 7.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_by2ns7qalnmypubwxy39iapukzyp",
+                "label": "Bacon",
+                "knownAs": "BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 615.0,
+                    "PROCNT": 30.770000457763672,
+                    "FAT": 53.849998474121094,
+                    "CHOCDF": 0.0
+                },
+                "brand": "Roundy's",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "BACON CURED WITH: WATER; SALT; SODIUM PHOSPHATES; SMOKE FLAVORING; SODIUM; ERYTHORBATE; SODIUM NITRITE.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 13.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pan",
+                        "label": "Pan",
+                        "quantity": 1.0
+                    }
+                ],
+                "servingsPerContainer": 12.0
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 13.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pan",
+                    "label": "Pan",
+                    "weight": 13.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 156.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_ao1qcajbpcmx6ra68irl2a7b4ql7",
+                "label": "Bacon",
+                "knownAs": "BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 205.0,
+                    "PROCNT": 15.229999542236328,
+                    "FAT": 15.229999542236328,
+                    "CHOCDF": 1.3200000524520874,
+                    "FIBTG": 0.0
+                },
+                "brand": "Sara Lee Foods",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "LIQUID WHOLE EGG: WHOLE EGGS; WATER; SALT; CITRIC ACID; PASTEURIZED PROCESS COLORED CHEDDAR CHEESE: CHEDDAR CHEESE (MILK; CHEESE CULTURE; SALT; ENZYMES); WATER; CREAM; SODIUM PHOSPHATES; SALT; SORBIC ACID (PRESERVATIVE); VEGETABLE COLOR (ANNATTO AND PAPRIKA EXTRACT BLEND); POWDERED CELLULOSE (TO PREVENT CAKING); POTASSIUM SORBATE AND NATAMYCIN (PRESERVATIVES); FULLY COOKED BACON BITS: BACON (CURED WITH WATER; SALT; SUGAR; SODIUM PHOSPHATES; SODIUM ERYTHORBATE; SODIUM NITRITE); SMOKE FLAVORING.",
+                "image": "https://www.edamam.com/food-img/984/98422629eef19b5d7ae61526826d9cfe.jpg",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 151.0
+                    }
+                ],
+                "servingsPerContainer": 1.0
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 151.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 151.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_bfac34abxm94w5bzp4rd2a07t2mn",
+                "label": "Bacon Wrapped Scallops, Bacon",
+                "knownAs": "BACON WRAPPED SCALLOPS, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 129.0,
+                    "PROCNT": 11.760000228881836,
+                    "FAT": 7.059999942779541,
+                    "CHOCDF": 3.5299999713897705
+                },
+                "brand": "Sam's Club West",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "SCALLOPS; BACON (CURED WITH WATER; SALT; SUGAR; NATURAL SMOKE FLAVORING; SODIUM PHOSPHATE; SODIUM ERYTHORBATE; SODIUM NITRITE).",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                        "label": "Piece",
+                        "quantity": 5.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 85.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 85.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 17.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_b4ypzq2bt8l60aaa57tq9asup9hk",
+                "label": "Blackeye Peas With Bacon, Bacon",
+                "knownAs": "BLACKEYE PEAS WITH BACON, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 85.0,
+                    "PROCNT": 4.619999885559082,
+                    "FAT": 1.149999976158142,
+                    "CHOCDF": 13.079999923706055,
+                    "FIBTG": 2.299999952316284
+                },
+                "brand": "Bush Brothers & Company",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "PREPARED BLACKEYE PEAS; WATER; BACON; SALT; AND DISODIUM EDTA (PROMOTES COLOR RETENTION).",
+                "image": "https://www.edamam.com/food-img/963/9633235926b367f2ff8e26e02dd1ac03.jpg",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                        "label": "Cup",
+                        "quantity": 0.5
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 130.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 130.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 260.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_blznr2kbrzlwpibnuf63sbyr9s7u",
+                "label": "Pinto Beans With Bacon, Bacon",
+                "knownAs": "PINTO BEANS WITH BACON, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 77.0,
+                    "PROCNT": 4.619999885559082,
+                    "FAT": 1.149999976158142,
+                    "CHOCDF": 13.079999923706055,
+                    "FIBTG": 3.0999999046325684
+                },
+                "brand": "Bush Brothers & Company",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "INGREDIENTS: PREPARED PINTO BEANS; WATER; CURED BACON; SALT; CALCIUM DISODIUM EDTA (PROMOTES COLOR RETENTION).",
+                "image": "https://www.edamam.com/food-img/011/011a66500823a9d8d133c8f66ef15e63.jpg",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                        "label": "Cup",
+                        "quantity": 0.5
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 130.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 130.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 260.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_atatkpcbnjqrkeadl2807a3ma56d",
+                "label": "Bacon Ranch Dressing, Bacon",
+                "knownAs": "BACON RANCH DRESSING, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 167.0,
+                    "PROCNT": 0.0,
+                    "FAT": 16.670000076293945,
+                    "CHOCDF": 6.670000076293945,
+                    "FIBTG": 0.0
+                },
+                "brand": "Food Town Stores Inc.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "WATER; CANOLA AND/OR SOYBEAN OIL; DISTILLED VINEGAR; MODIFIED FOOD STARCH; EGG YOLKS; CULTURED NONFAT BUTTERMILK; SALT; BACON (BACON; WATER; SALT; SUGAR; SODIUM NITRITE; SMOKE FLAVOR; DEXTROSE; SODIUM PHOSPHATES; SODIUM ERYTHORBATE; SODIUM ASCORBATE); XANTHAN GUM; YEAST EXTRACT; DRIED GARLIC; PHOSPHORIC ACID; POTASSIUM SORBATE AND SODIUM BENZOATE (PRESERVATIVES); NATURAL FLAVOR; SPICE; CALCIUM DISODIUM EDTA (TO PRESERVE FLAVOR).",
+                "image": "https://www.edamam.com/food-img/6a8/6a87768908f6b24c18781394e7b32b37.png",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                        "label": "Tablespoon",
+                        "quantity": 2.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+                        "label": "Milliliter",
+                        "quantity": 30.0
+                    }
+                ],
+                "servingsPerContainer": 16.0
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 29.573529562
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 473.176472992
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon",
+                    "label": "Tablespoon",
+                    "weight": 14.786764781
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+                    "label": "Milliliter",
+                    "weight": 0.9857843187333334
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_besr35sba0v7xqbf2xjxabue6nui",
+                "label": "Baked Beans With Bacon, Bacon",
+                "knownAs": "BAKED BEANS WITH BACON, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 143.0,
+                    "PROCNT": 7.139999866485596,
+                    "FAT": 4.760000228881836,
+                    "CHOCDF": 18.25,
+                    "FIBTG": 3.200000047683716
+                },
+                "brand": "Vietti Foods Company, Inc.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "WATER; BEANS; BACON (CURED WITH: WATER; SALT; SODIUM ERYTHORBATE; SODIUM NITRITE. MAY CONTAIN SUGAR; SMOKE FLAVORING; SODIUM PHOSPHATE); BROWN SUGAR; MOLASSES; TOMATO PASTE; MODIFIED FOOD STARCH; SALT; NATURAL FLAVOR.",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 126.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                        "label": "Cup",
+                        "quantity": 0.5
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 126.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 252.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_bb4ienpamquoqqa2wvb7zby1f6k7",
+                "label": "Bacon Wrapped Scallops, Bacon",
+                "knownAs": "BACON WRAPPED SCALLOPS, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 212.0,
+                    "PROCNT": 18.81999969482422,
+                    "FAT": 14.119999885559082,
+                    "CHOCDF": 3.5299999713897705
+                },
+                "brand": "BJ's Wholesale Club / Corporate Brands",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "SCALLOPS; BACON (CURED WITH WATER; SALT; SUGAR; SODIUM PHOSPHATES; SODIUM ERYTHORBATE; SODIUM NITRITE. MAY ALSO CONTAIN SMOKE FLAVORING AND/OR SODIUM DIACETATE).",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                        "label": "Piece",
+                        "quantity": 5.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 85.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 85.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+                    "label": "Piece",
+                    "weight": 17.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_bgh6harbjx1ehnazyfarqb25w10l",
+                "label": "Bacon",
+                "knownAs": "BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 467.0,
+                    "PROCNT": 26.670000076293945,
+                    "FAT": 40.0,
+                    "CHOCDF": 0.0,
+                    "FIBTG": 0.0
+                },
+                "brand": "Ahold Usa, Inc.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "BACON (CURED WITH WATER; SALT; SODIUM PHOSPHATES; SODIUM ERYTHORBATE; SODIUM NITRITE); MAY CONTAIN 2% OR LESS OF THE FOLLOWING INGREDIENTS: SUGAR; MAPLE FLAVOR (PROPYLENE GLYCOL; NATURAL AND ARTIFICIAL FLAVOR; WATER; PURE MAPLE SYRUP); NATURAL AND ARTIFICIAL FLAVOR; BROWN SUGAR; HONEY.",
+                "image": "https://www.edamam.com/food-img/4de/4de8d2ac1730cbac754eed0e8404011c.png",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 15.0
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                        "label": "Ounce",
+                        "quantity": 0.5
+                    }
+                ],
+                "servingsPerContainer": 9.0
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 14.1747615625
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+                    "label": "Package",
+                    "weight": 127.57285406250001
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                }
+            ]
+        },
+        {
+            "food": {
+                "foodId": "food_a8b7p7ib02l5sobii6zkraeuka9t",
+                "label": "Bacon Ranch Peanuts, Bacon",
+                "knownAs": "BACON RANCH PEANUTS, BACON",
+                "nutrients": {
+                    "ENERC_KCAL": 600.0,
+                    "PROCNT": 26.670000076293945,
+                    "FAT": 46.66999816894531,
+                    "CHOCDF": 26.670000076293945,
+                    "FIBTG": 13.300000190734863
+                },
+                "brand": "Weis Markets, Inc.",
+                "category": "Packaged foods",
+                "categoryLabel": "food",
+                "foodContentsLabel": "BACON RANCH PEANUTS (PEANUTS; PEANUT AND/OR CANOLA AND/OR SOYBEAN OIL; BUTTERMILK; MALTODEXTRIN; SALT; GARLIC AND ONION POWDERS; SWEET CREAM SOLIDS; SPICES; NATURAL FLAVOR (MILK); CITRIC ACID; SOUR CREAM SOLIDS (CULTURED CREAM; NONFAT MILK)).",
+                "servingSizes": [
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                        "label": "Cup",
+                        "quantity": 0.25
+                    },
+                    {
+                        "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                        "label": "Gram",
+                        "quantity": 30.0
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+                    "label": "Serving",
+                    "weight": 30.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+                    "label": "Gram",
+                    "weight": 1.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+                    "label": "Ounce",
+                    "weight": 28.349523125
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+                    "label": "Pound",
+                    "weight": 453.59237
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+                    "label": "Kilogram",
+                    "weight": 1000.0
+                },
+                {
+                    "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+                    "label": "Cup",
+                    "weight": 120.0
+                }
+            ]
+        }
+    ],
+    "_links": {
+        "next": {
+            "title": "Next page",
+            "href": "https://api.edamam.com/api/food-database/v2/parser?session=44&ingr=bacon&app_id=41da3b46&app_key=7e5c96852501cd576f400b58aad71e35"
+        }
+    }
+}

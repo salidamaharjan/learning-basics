@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Edamam API Food Tracker</title>
+  </head>
+
+  <body>
+    <h1>Food Nutritional Values & Recipe</h1>
+    <input type="text" id="foodInput" placeholder="Enter a food" />
+    <button onclick="searchFood()">Search</button>
+    <div id="results"></div>
+
+    <script>
+      const APP_ID = "41da3b46";
+      const APP_KEY = "7e5c96852501cd576f400b58aad71e35";
+      const APP_ID2 = "2af0d17c";
+      const APP_KEY2 = "9a6289cd598f5fbde51c1ffb1ef051ec";
+
+      async function searchFood() {
+        const foodInput = document.getElementById("foodInput").value;
+        const resultsDiv = document.getElementById("results");
+        resultsDiv.innerHTML = ""; // Clear previous results
+
+        const endpointNutrients = `https://api.edamam.com/api/food-database/v2/parser?ingr=${encodeURIComponent(
+          foodInput
+        )}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+        const endpointRecipe = `https://api.edamam.com/search?q=${encodeURIComponent(
+          foodInput
+        )}&app_id=${APP_ID2}&app_key=${APP_KEY2}`;
+
+        try {
+          // Fetch nutritional information
+          const responseNutrients = await fetch(endpointNutrients);
+          const dataNutrients = await responseNutrients.json();
+
+          if (dataNutrients.hints.length === 0) {
+            resultsDiv.innerHTML = "No nutritional information found";
+            return;
+          }
+
+          const food = dataNutrients.hints[0].food;
+          const nutrients = food.nutrients;
+
+          const foodName = document.createElement("h2");
+          foodName.textContent = food.label;
+          resultsDiv.appendChild(foodName);
+
+          const nutrientsList = document.createElement("ul");
+          for (const key in nutrients) {
+            const nutrientItem = document.createElement("li");
+            nutrientItem.textContent = `${key}: ${nutrients[key]}`;
+            nutrientsList.appendChild(nutrientItem);
+          }
+          resultsDiv.appendChild(nutrientsList); // Fetch recipe information
+
+          const responseRecipe = await fetch(endpointRecipe);
+          const dataRecipe = await responseRecipe.json();
+
+          if (dataRecipe.hits.length === 0) {
+            resultsDiv.innerHTML += "<br>No recipe found";
+            return;
+          }
+
+          const recipe = dataRecipe.hits[0].recipe;
+
+          const recipeTitle = document.createElement("h2");
+          recipeTitle.textContent = "Recipe";
+          resultsDiv.appendChild(recipeTitle);
+
+          const recipeLink = document.createElement("a");
+          recipeLink.href = recipe.url;
+          recipeLink.textContent = recipe.label;
+          resultsDiv.appendChild(recipeLink);
+        } catch (error) {
+          console.error("Error fetching data:", error);
+          resultsDiv.innerHTML = "An error occurred. Please try again.";
+        }
+      }
+    </script>
+  </body>
+</html> -->

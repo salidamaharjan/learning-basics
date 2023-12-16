@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container d-flex flex-column gap-2 mt-5">
+      <div class="row">
+        <div class="col-12"></div>
+        <div class="card">
+          <div class="card-body">
+            <div class="container">
+              <div class="row d-flex justify-content-evenly">
+                <div class="col-10">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">👉</span>
+                    <input
+                      type="text"
+                      class="form-control user-input"
+                      placeholder="Your Todo here.."
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                </div>
+                <div class="col-2 text-end">
+                  <button type="button" class="btn btn-success btn-add">
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12"></div>
+        <div class="card">
+          <div class="card-body">
+            <ul class="list-group list-group-flush ul-element">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
