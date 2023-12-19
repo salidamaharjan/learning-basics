@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <pre></pre>
+    <script>
+      const cars = [
+        { brand: "Toyota", model: "Corolla", year: 2018, price: 15000 },
+        { brand: "Honda", model: "Civic", year: 2020, price: 18000 },
+        { brand: "Ford", model: "Mustang", year: 2015, price: 25000 },
+        { brand: "Tesla", model: "Model S", year: 2022, price: 70000 },
+        { brand: "BMW", model: "X5", year: 2019, price: 45000 },
+      ];
+      // Create a function that will set innerHTML of pre tag
+      // The function will take an array as an argument (cars)
+      // The function will only display the car that are newer than 2020 or later
+      // JSON.stringify() result is enough  - no need to create any UIs
+     var carlist = setInnerHtmlOfPreTag(cars);
+     console.log(carlist);
+
+      function setInnerHtmlOfPreTag(arr) {
+        var listOfTheCarMadeAfter2020 = arr.filter(yearMoreThan2020);    
+        return listOfTheCarMadeAfter2020;
+      }
+      function yearMoreThan2020(item) {
+        if(item.year >= 2020){
+          //console.log(item);
+          return true;
+        }
+        return false;
+      }
+
+      var brandT = theFirstBrandNameWithT(cars);
+      console.log(brandT);
+
+      function theFirstBrandNameWithT(arr) {
+        var brandNameWithT = arr.find(fstTBrand);
+        // console.log("brand", arr.find(fstTBrand));
+        return brandNameWithT;
+      }
+
+      function fstTBrand(item){
+        if(item.brand[0] === "H") {
+          // console.log("fstTBrand", item);
+          return true;
+        }
+        return false;
+      }
+
+      var sortWithYear = sortingArr(cars);
+      console.log(sortWithYear);
+      function sortingArr (arr) {
+       arr.sort(sortByYear);
+      }
+      function sortByYear(arr){
+        for(var i = 0; i < arr.length; i++){
+          console.log(arr[i].year);
+           
+        }
+      }
+    </script>
+  </body>
+</html>
